@@ -8,4 +8,4 @@ app = Flask(__name__)
 def hello():
     DAYNAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     dayname = DAYNAMES[datetime.now().weekday()]
-    return f"<p>Hello, world! Happy {dayname).</p>"
+    return f"<p>Hello, world! Happy {dayname}.</p>"
